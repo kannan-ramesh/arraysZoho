@@ -6,12 +6,11 @@ public class Pattern {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("Enter the string:");
 		String str = input.next();
 		
 		int n=str.length();
-		
-		
 		boolean odd = findOdd(n);
 		
 		if(odd) {

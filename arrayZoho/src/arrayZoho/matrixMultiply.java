@@ -1,5 +1,4 @@
 package arrayZoho;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -8,15 +7,8 @@ public class matrixMultiply {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		
-		int arr[][] = {	
-						{1,2},
-						{3,4}
-					  };
-		
-		int arr1[][] = {{5,6,7},
-						{8,9,10}
-						};
-		
+		int arr[][] = {	{1,2},{3,4}};
+		int arr1[][] = {{5,6,7},{8,9,10}};
 		
 		int ans[][]= new int[2][3];
 		int sum=0;
